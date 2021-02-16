@@ -59,9 +59,7 @@ function runLoops() {
       addImageToDiv("#for-loop");
   */
 
-  let forNumCreated = 0;
-
-  for (forNumCreated = 0; forNumCreated < num; forNumCreated++) {
+  for (let forNumCreated = 0; forNumCreated < num; forNumCreated++) {
 
     addImageToDiv("#for-loop");
 
